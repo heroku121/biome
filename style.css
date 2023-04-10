@@ -1,0 +1,50 @@
+.custom-bg-1 {
+    background-color: #e58c6c;
+}
+
+.custom-bg-2 {
+    background-color: green;
+}
+
+.custom-text-color {
+    color: #e58c6c;
+}
+
+.custom-shadow {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.custom-width-1 {
+    width: 100%;
+}
+
+.custom-font-size {
+    font-size: 70px;
+}
+
+.custom-border {
+    border: 2px solid;
+    border-radius: 15px;
+}
+
+.custom-border-1 {
+    border: 1px solid;
+    border-radius: 15px;
+}
+
+.custom-font {
+    font-family: sans-serif;
+}
+
+.custom-font-size-1 {
+    font-size: 14px;
+}
+
+@media screen and (max-width: 768px) {
+    .custom-order {
+        order: 2;
+    }
+    .custom-order-1 {
+        order: 1;
+    }
+}
